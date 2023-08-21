@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+main {
+    padding: 2rem;
+}
+
+.transactions table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+}
+
+.transactions th, .transactions td {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+}
+
+.budget p {
+    margin: 1rem 0;
+}
+
+.categories select {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+/* ... Existing CSS ... */
+
+/* Responsive table style */
+.responsive-table {
+    display: block;
+    overflow-x: auto;
+}
